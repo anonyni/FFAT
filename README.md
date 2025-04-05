@@ -16,3 +16,23 @@ FFAT (Formal-Fuzzing Adaptive Tester) is a hardware security framework combining
 ---
 
 ## 📂 Repository Structure
+
+| Directory / File                  | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `FFAT_design/`                   | Verilog design files for formal + runtime anomaly testing (e.g. `attack_top.v`) |
+| `FFAT_PS_bare/`                  | Bare-metal firmware for ZCU102 FPGA, anomaly injection logic               |
+| `Demonstration/`                 | Images, LED pattern visuals, runtime anomaly snapshots                      |
+| `FHLS_FFAT_Comparison/`          | Comparison datasets between FFAT and other hybrid logic fuzzers             |
+| `RIoTFuzz_FFAT_Comparison/`      | Comparative analysis logs with RFuzz/RIoTFuzz                               |
+| `AI_model_FFAT.py`               | ML classifier for anomaly type detection & severity scoring                 |
+| `Fuzzer_FFAT.py`                 | UART interface + attack sequencing + fuzzing loop                           |
+| `README.md`                      | You’re here 🙂 
+
+
+## 📦 Installation & Usage
+
+### 🔧 Prerequisites
+
+- FPGA board (Tested: Xilinx ZCU102)
+- Vivado/Vitis for firmware deployment
+- Python 3.7+ and libraries:
