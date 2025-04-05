@@ -1,0 +1,9 @@
+# ninja log v5
+10	14	0	clean	1b6cfa844fce8249
+8	74	7655470185361155	build.ninja	71ce079086e15e09
+11	64	7655464257935108	CMakeFiles/Fuzzing_application.elf.dir/platform.c.obj	bb6d20cdd055c573
+8	137	7655464258652841	CMakeFiles/Fuzzing_application.elf.dir/main.c.obj	e92b0a1741a65093
+138	250	7655464259511777	Fuzzing_application.elf	64c6bb75df87ef4d
+11	66	7655470186792254	CMakeFiles/Fuzzing_application.elf.dir/platform.c.obj	bb6d20cdd055c573
+9	138	7655470187505570	CMakeFiles/Fuzzing_application.elf.dir/main.c.obj	e92b0a1741a65093
+138	254	7655470188381888	Fuzzing_application.elf	64c6bb75df87ef4d
