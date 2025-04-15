@@ -19,8 +19,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 # DATASETS dictionary (adjust file paths as needed)
 DATASETS = {
-    "mutation_attack": "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_FFAT_Comparison/RIoT_CSV/riotfuzz_mutation_attack.csv",
-    "normal_state": "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_FFAT_Comparison/RIoT_CSV/riotfuzz_normal.csv"
+    "mutation_attack": "E:/FFAT/Code_FFAT/RIoTfuzz_FFAT_Comparison/RIoT_CSV/riotfuzz_mutation_attack.csv",
+    "normal_state": "E:/FFAT/Code_FFAT/RIoTfuzz_FFAT_Comparison/RIoT_CSV/riotfuzz_normal.csv"
 }
 
 # Extra file for unknown data (optional)
