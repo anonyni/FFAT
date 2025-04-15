@@ -46,5 +46,5 @@ def generate_simulated_riotfuzz_data(filename, num_entries, attack_label):
     print(f"Generated {filename} with {num_entries} entries.")
 
 # Generating simulated datasets:
-generate_simulated_riotfuzz_data("E:/PhD Projects\FFAT/Code_FFAT/RIoTfuzz_original/RIoT_CSV/riotfuzz_normal.csv", 1000, "normal_state")
-generate_simulated_riotfuzz_data("E:/PhD Projects\FFAT/Code_FFAT/RIoTfuzz_original/RIoT_CSV/riotfuzz_mutation_attack.csv", 1000, "mutation_attack")
+generate_simulated_riotfuzz_data("E:/FFAT/Code_FFAT/RIoTfuzz_original/RIoT_CSV/riotfuzz_normal.csv", 1000, "normal_state")
+generate_simulated_riotfuzz_data("E:/FFAT/Code_FFAT/RIoTfuzz_original/RIoT_CSV/riotfuzz_mutation_attack.csv", 1000, "mutation_attack")
