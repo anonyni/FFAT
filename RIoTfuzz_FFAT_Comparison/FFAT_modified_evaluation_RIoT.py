@@ -118,11 +118,11 @@ def process_fuzzing_dataset_1(json_filename):
 if __name__ == "__main__":
     # List your JSON dataset files.
     dataset_files = [
-    "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/clock_glitching.json",
-    "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/normal_state.json",
-    "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/overvoltage.json",
-    "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/rowhammer.json",
-    "E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/unknown_data.json"
+    "E:/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/clock_glitching.json",
+    "E:/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/normal_state.json",
+    "E:/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/overvoltage.json",
+    "E:/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/rowhammer.json",
+    "E:/FFAT/Code_FFAT/RIoTfuzz_original/FFAT_JSON/unknown_data.json"
     ]
     
     # Process each file with the first evaluation function.
