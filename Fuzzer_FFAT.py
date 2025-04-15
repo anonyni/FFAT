@@ -32,7 +32,7 @@ random_mode_active = False
 # ----------------------------------------------------------------------------------------
 UART_PORT = "COM7"  # Replace with your port
 UART_BAUDRATE = 115200
-COMMAND_DELAY = 3.0  # <-- MATCHES your short script
+COMMAND_DELAY = 3.0  
 RETRY_LIMIT = 3      # <-- We'll retry 3 times if needed
 
 # Attack Commands
@@ -123,7 +123,7 @@ def run_random_attack(uart):
         # Choose a random attack
         code = random.choice(attack_codes)
         logging.info(f"Randomly selected attack code: 0x{code:02X}")
-        # Execute the chosen attack (you may wish to add error checking)
+        # Execute the chosen attack
         execute_attack(uart, code)
         # Wait a little before triggering the next attack
         time.sleep(1)  # Adjust delay as needed
