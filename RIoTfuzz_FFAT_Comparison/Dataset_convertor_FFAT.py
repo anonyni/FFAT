@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Load your data (e.g., overvoltage.csv)
-df = pd.read_csv("E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/unknown_data.csv", encoding="latin1")
+df = pd.read_csv("E:/FFAT/Code_FFAT/RIoTfuzz_original/unknown_data.csv", encoding="latin1")
 print(df.columns.tolist())
 
 # Example transformation (for MQTT/HTTP request simulation)
@@ -20,5 +20,5 @@ for index, row in df.iterrows():
     payloads.append(payload)
 
 # Save as JSON
-with open("E:/PhD Projects/FFAT/Code_FFAT/RIoTfuzz_original/unknown_data.json", "w") as file:
+with open("E:/FFAT/Code_FFAT/RIoTfuzz_original/unknown_data.json", "w") as file:
     json.dump(payloads, file, indent=4)
